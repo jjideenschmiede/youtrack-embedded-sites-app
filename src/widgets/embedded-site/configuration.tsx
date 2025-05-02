@@ -1,18 +1,22 @@
-import React, {memo} from "react";
+import React, {memo, NamedExoticComponent} from "react";
 import Input from "@jetbrains/ring-ui-built/components/input/input";
 import Button from "@jetbrains/ring-ui-built/components/button/button";
 import ButtonSet from "@jetbrains/ring-ui-built/components/button-set/button-set";
 
 import {WidgetConfiguration} from "./types";
 
-// Props interface defines the shape of the props that the ConfigurationComponent will receive.
-// It includes a single function prop `onDone` that will be called when the configuration is done.
+/*
+ Props interface defines the shape of the props that the ConfigurationComponent will receive.
+ It includes a single function prop `onDone` that will be called when the configuration is done.
+ */
 interface Props {
   onDone: (config?: WidgetConfiguration) => void;
 }
 
-// ConfigurationComponent is a React functional component that renders a form for configuring a widget.
-// It allows the user to input a URL and save it as part of the widget's configuration.
+/*
+ ConfigurationComponent is a React functional component that renders a form for configuring a widget.
+ It allows the user to input a URL and save it as part of the widget's configuration.
+ */
 const ConfigurationComponent: React.FunctionComponent<Props> = ({onDone}) => {
   const [value, setValue] = React.useState("");
 
@@ -39,5 +43,7 @@ const ConfigurationComponent: React.FunctionComponent<Props> = ({onDone}) => {
   );
 };
 
-// Configuration is a memoized version of the ConfigurationComponent.
-export const Configuration = memo(ConfigurationComponent);
+/*
+ Configuration is a memoized version of the ConfigurationComponent.
+ */
+export const Configuration : NamedExoticComponent<Props> = memo(ConfigurationComponent);
