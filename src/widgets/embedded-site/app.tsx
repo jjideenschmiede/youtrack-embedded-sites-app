@@ -58,10 +58,13 @@ const AppComponent: React.FunctionComponent<Props> = () => {
     <div className="widget">
       {isConfiguring && hostRef.current
         ? (
-          <Configuration onDone={doneConfiguring}/>
+          <Configuration
+            onDone={doneConfiguring}
+            initialConfig={config}
+          />
         )
         : (
-          <iframe src={config?.url} title={"Test"} allowFullScreen/>
+          <iframe src={config?.url} title={config?.url}/>
         )}
     </div>
   );
