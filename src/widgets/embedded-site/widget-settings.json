@@ -1,0 +1,11 @@
+{
+  "title": "Embedded Site Settings",
+  "type": "object",
+  "properties": {
+    "url": {
+      "title": "URL",
+      "type": "string",
+      "description": "The URL of the site to embed in the widget."
+    }
+  }
+}

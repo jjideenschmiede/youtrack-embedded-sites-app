@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "name": "youtrack-embedded-sites-app",
+  "title": "Embedded Sites",
+  "description": "To embed different sites with widgets to dashboards.",
+  "version": "1.0.0",
+  "icon": "icon.svg",
+  "url": "https://github.com/jjideenschmiede/youtrack-embedded-sites-app",
+  "minYouTrackVersion": "2024.3.0",
+  "vendor": {
+    "name": "J&J Ideenschmiede GmbH",
+    "url": "https://jj-ideenschmiede.de",
+    "email": "support@jj-ideenschmiede.de"
+  },
+  "widgets": [
+    {
+      "key": "embedded-site",
+      "name": "Embedded Site",
+      "description": "To embed an external site to your dashboard.",
+      "indexPath": "embedded-site/index.html",
+      "extensionPoint": "DASHBOARD_WIDGET",
+      "settingsSchemaPath": "embedded-site/widget-settings.json"
+    }
+  ]
+}
