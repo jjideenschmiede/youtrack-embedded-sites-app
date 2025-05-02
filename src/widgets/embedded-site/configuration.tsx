@@ -20,11 +20,11 @@ interface Props {
 const ConfigurationComponent: React.FunctionComponent<Props> = ({onDone}) => {
   const [value, setValue] = React.useState("");
 
-  const onChange = React.useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+  const onChange = React.useCallback((e: React.ChangeEvent<HTMLInputElement>) : void => {
     setValue(e.target.value);
   }, []);
 
-  const onSubmit = React.useCallback(async () => {
+  const onSubmit = React.useCallback(async () : Promise<void> => {
     if (!value) {
       return;
     }
