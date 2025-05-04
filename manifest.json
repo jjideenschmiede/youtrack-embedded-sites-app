@@ -14,11 +14,19 @@
   },
   "widgets": [
     {
-      "key": "embedded-site",
+      "key": "dashboard-widget",
       "name": "Embedded Site",
       "description": "To embed an external site to your dashboard.",
       "indexPath": "embedded-site/index.html",
       "extensionPoint": "DASHBOARD_WIDGET",
+      "settingsSchemaPath": "embedded-site/widget-settings.json"
+    },
+    {
+      "key": "markdown",
+      "name": "Embedded Site",
+      "description": "To embed an external site to your article.",
+      "indexPath": "embedded-site/index.html",
+      "extensionPoint": "MARKDOWN",
       "settingsSchemaPath": "embedded-site/widget-settings.json"
     }
   ]
