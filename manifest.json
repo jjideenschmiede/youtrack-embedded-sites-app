@@ -4,21 +4,30 @@
   "title": "Embedded Sites",
   "description": "To embed different sites with widgets to dashboards.",
   "version": "1.0.0",
-  "icon": "icon.svg",
-  "url": "https://github.com/jjideenschmiede/youtrack-embedded-sites-app",
-  "minYouTrackVersion": "2024.3.0",
   "vendor": {
     "name": "J&J Ideenschmiede GmbH",
     "url": "https://jj-ideenschmiede.de",
     "email": "support@jj-ideenschmiede.de"
   },
+  "icon": "icon.svg",
+  "minYouTrackVersion": "2024.3.0",
+  "changeNotes": "https://github.com/jjideenschmiede/youtrack-embedded-sites-app/releases",
+  "url": "https://github.com/jjideenschmiede/youtrack-embedded-sites-app",
   "widgets": [
     {
-      "key": "embedded-site",
+      "key": "dashboard-widget",
       "name": "Embedded Site",
-      "description": "To embed an external site to your dashboard.",
       "indexPath": "embedded-site/index.html",
       "extensionPoint": "DASHBOARD_WIDGET",
+      "description": "To embed an external site to your dashboard.",
+      "settingsSchemaPath": "embedded-site/widget-settings.json"
+    },
+    {
+      "key": "markdown",
+      "name": "Embedded Site",
+      "indexPath": "embedded-site/index.html",
+      "extensionPoint": "MARKDOWN",
+      "description": "To embed an external site to your article.",
       "settingsSchemaPath": "embedded-site/widget-settings.json"
     }
   ]
