@@ -3,6 +3,5 @@
   "type": "object",
   "title": "Settings",
   "description": "Settings for the application",
-  "properties": {},
-  "required": []
+  "properties": {}
 }
