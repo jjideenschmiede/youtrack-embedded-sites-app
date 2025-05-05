@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/youtrack-app.json",
-  "name": "youtrack-embedded-sites-app",
+  "name": "embedded-sites",
   "title": "Embedded Sites",
   "description": "To embed different sites with widgets to dashboards.",
   "version": "1.0.0",
