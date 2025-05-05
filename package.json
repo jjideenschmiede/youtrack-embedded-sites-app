@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "tsc -p tsconfig.app.json && vite build && youtrack-app validate dist",
     "lint": "eslint --report-unused-disable-directives --max-warnings 0",
-    "test": "echo 'no tests'",
     "pack": "rm -rf youtrack-embedded-sites-app.zip && npx --yes bestzip youtrack-embedded-sites-app.zip dist/*",
     "upload": "youtrack-app upload dist"
   },
