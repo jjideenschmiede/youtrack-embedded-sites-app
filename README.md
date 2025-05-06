@@ -29,7 +29,7 @@ The App allows you to embed any website in a YouTrack Widget. You can configure 
 
 ## Installation
 
-1. Download the latest release from the [marketplace](https://www.jetbrains.com/youtrack/marketplace/)
+1. Download the latest release from the [marketplace](https://plugins.jetbrains.com/plugin/27288-embedded-sites)
 2. Go to the YouTrack Administration area
 3. Navigate to Apps
 4. Click "Upload app zip"
