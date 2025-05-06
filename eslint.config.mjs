@@ -18,7 +18,7 @@ const compat = new FlatCompat({
 export default tseslint.config(
   { files: ["**/*.{js,cjs,ts,tsx}"] },
   {
-    ignores: [".github/workflows/scripts", "**/dist", "eslint.config.mjs"],
+    ignores: [".github", "**/dist", "eslint.config.mjs"],
   },
   ...fixupConfigRules(
     compat.extends(
