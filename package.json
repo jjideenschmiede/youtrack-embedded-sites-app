@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.app.json && vite build && youtrack-app validate dist",
     "lint": "eslint --report-unused-disable-directives --max-warnings 0",
-    "pack": "rm -f embedded-sites.zip && (cd dist && npx bestzip ../embedded-sites.zip .)",
+    "pack": "rm -f youtrack-embedded-sites-app.zip && (cd dist && npx bestzip ../youtrack-embedded-sites-app.zip .)",
     "upload": "youtrack-app upload dist"
   },
   "dependencies": {
