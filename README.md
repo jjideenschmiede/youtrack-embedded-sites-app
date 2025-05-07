@@ -38,7 +38,7 @@ The App allows you to embed any website in a YouTrack Widget. You can configure 
 ## Development
 
 > [!NOTE]
-> You need to have Node.js and NPM installed to install, build, and pack the app.
+> You need to have Node.js and npm installed to install, build, and pack the app.
 
 You can clone this repository and build the app locally. Make sure you have Node.js and npm installed. Install the dependencies and build the app using:
 
