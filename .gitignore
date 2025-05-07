@@ -1,6 +1,6 @@
 # First irgnore all unused folders.
 # After that we ignore all other files.
-node_modules
 dist
+node_modules
 
 *.zip
