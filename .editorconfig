@@ -1,8 +1,5 @@
 # EditorConfig is awesome: https://editorconfig.org
 
-# top-most EditorConfig file
-root = true
-
 # React Native files require space indentation and 2 spaces
 [*.{js,jsx,ts,tsx}]
 indent_style = space
