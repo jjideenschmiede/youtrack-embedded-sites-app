@@ -9,13 +9,17 @@ updates:
       interval: "daily"
     reviewers:
       - "jjideenschmiede/devops"
+      - "gowizzard"
     commit-message:
       prefix: "ci"
-  - package-ecosystem: "gomod"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
     reviewers:
       - "jjideenschmiede/backend"
+      - "gowizzard"
     commit-message:
       prefix: "ci(deps)"
+    target-branch: "development"
