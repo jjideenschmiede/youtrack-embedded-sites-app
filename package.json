@@ -13,7 +13,7 @@
     "@jetbrains/ring-ui-built": "^7.0.8",
     "core-js": "3.38.0",
     "react": "^19.1.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.1",
@@ -22,7 +22,7 @@
     "@jetbrains/eslint-config": "^6.0.2",
     "@jetbrains/youtrack-apps-tools": "^0.0.1",
     "@types/react": "^19.1.13",
-    "@types/react-dom": "^18.3.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.3",
     "eslint": "^9.13.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
