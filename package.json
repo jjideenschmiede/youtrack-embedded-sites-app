@@ -1,7 +1,7 @@
 {
   "name": "youtrack-embedded-sites-app",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.app.json && vite build && youtrack-app validate dist",
