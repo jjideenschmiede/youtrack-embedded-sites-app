@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@jetbrains/ring-ui-built": "^7.0.8",
-    "core-js": "3.38.0",
+    "core-js": "3.47.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
