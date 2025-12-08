@@ -20,7 +20,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.13.0",
     "@jetbrains/eslint-config": "^6.0.2",
-    "@jetbrains/youtrack-apps-tools": "^0.0.1",
+    "@jetbrains/youtrack-apps-tools": "^0.0.2",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.3",
