@@ -56,7 +56,7 @@ const AppComponent: React.FunctionComponent<Props> = () => {
 
   return (
     <div className="widget">
-      {isConfiguring && hostRef.current
+      {isConfiguring
         ? (
           <Configuration
             onDone={doneConfiguring}
